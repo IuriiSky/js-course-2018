@@ -61,7 +61,7 @@ label {
 }
 
 .logo {
-  grid-column: 1 / 3;
+  grid-column: 1 / 2;
   grid-row: 1 / 2;
   background-image: url("images/youtube2.svg");
   background-repeat: no-repeat;
@@ -281,7 +281,7 @@ label {
 
 /* fifth block */
 
-.img {
+.images-colection {
   display: inline-block;
   padding-top: 10%;
 }
@@ -354,7 +354,7 @@ label {
   grid-area: v;
   height: 140px;
   margin-left: 50%;
-  margin-top: -50px;
+  margin-top: -15px;
   margin-bottom: -67px;
 }
 
@@ -391,7 +391,7 @@ label {
   grid-area: b;
   height: 140px;
   margin-left: 50%;
-  margin-top: -50px;
+  margin-top: -15px;
   margin-bottom: -67px;
 }
 
@@ -413,7 +413,7 @@ label {
   grid-area: d;
   height: 140px;
   margin-left: 50%;
-  margin-top: -30px;
+  margin-top: -5px;
   margin-bottom: -67px;
 }
 
@@ -435,29 +435,32 @@ label {
   grid-area: q;
   height: 140px;
   margin-left: 50%;
-  margin-top: -50px;
+  margin-top: -15px;
   margin-bottom: -67px;
 }
 
-.our-story__button {
+.our-story {
   grid-area: btn;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 10%;
   width: 155px;
   height: 155px;
-  text-transform: uppercase;
   background-color: #35C2F8;
   border-radius: 50%;
   border: 6px solid rgb(212, 208, 208);
 }
 
-.btn-story {
+.our-story__continue {
+  display: flex;
   color: #FFFF;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-left: 24%;
+  padding-top: 28%;
 }
 
-.btn-story:hover {
+.our-story__continue:hover {
   color: rgb(250, 2, 2);
 }
 
@@ -465,8 +468,12 @@ label {
 
 @media screen and (max-width: 991.98px) {
 
+  .btn {
+    padding: 7px;
+  }
+
   .our-services, .about-as__img, .about-as__img-second, .about-as__img-three,
-  .about-as__img-four, .our-story__button {
+  .about-as__img-four, .our-story {
     margin: 0 auto;
   }
 
@@ -565,7 +572,7 @@ label {
   }
 
   .our-services, .about-as__img, .about-as__img-second, .about-as__img-three,
-  .about-as__img-four, .our-story__button {
+  .about-as__img-four, .our-story {
     margin: 0 auto;
   }
 
@@ -662,7 +669,7 @@ label {
   }
 
   .our-services, .about-as__img, .about-as__img-second, .about-as__img-three,
-  .about-as__img-four, .our-story__button {
+  .about-as__img-four {
     margin: 0 auto;
   }
 
